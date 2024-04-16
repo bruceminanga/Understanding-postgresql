@@ -24,7 +24,7 @@ jobs:
                     server: test1.nurseprofessors.com
                     username: ${{ secrets.ftp_USERNAME }}
                     password: ${{ secrets.ftp_PASSWORD }}
-                    local-dir: ./Understanding-postgresql #path to the directory containing the code to be uploaded.
+                    server-dir: ./Understanding-postgresql/ #path to the directory containing the code to be uploaded.
                     exclude: ".git/ .github/" #You can specify files/directory to exclude.
 
                   
